@@ -30,7 +30,7 @@ while True:
             for l in list:
                 if "temp temp-high" in str(l):
                     high = str(l)
-                    high = high[33:37]
+                    high = high[32:37]
                 elif "temp temp-low" in str(l):
                     low = str(l)
                     low = low[30:35]
