@@ -53,7 +53,7 @@ while True:
         clockNow = datetime.now()
 
         #Add information to file
-        print(f"{clockNow}, {dateToday}, {current}, {high}, {low}")
+        #print(f"{clockNow}, {dateToday}, {current}, {high}, {low}")
         denver.write(f"{clockNow}, {dateToday}, {current}, {high}, {low}")
     except:
         pass
