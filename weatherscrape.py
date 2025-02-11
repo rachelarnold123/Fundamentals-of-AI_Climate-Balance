@@ -44,7 +44,7 @@ while True:
         for i in info:
             if "myforecast-current-lrg" in str(i):
                 current = str(i)
-                current = current[34:38]
+                current = current[34:37]
 
         #Find date
         dateToday = date.today()
